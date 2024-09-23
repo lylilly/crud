@@ -1,0 +1,11 @@
+.Conteudo{
+    width: 100%;
+    min-height: 600px;
+    padding: 10px;
+    margin: 20px auto;    
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
