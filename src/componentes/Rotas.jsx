@@ -1,13 +1,15 @@
-import React from "react"
-
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom'
 
-import Pagina from "./layout/Pagina"
-import Lista from "./Lista"
-import Home from "./Home"
-import Erro from "./Erro"
+import Pagina from './layout/Pagina'
+import Lista from './Lista'
+import Home from './Home'
+import Erro from './Erro'
+import ListaPessoas from './ListaPessoas'
+import CadastroPessoa from './CadastroPessoa'
+import DetalhePessoa from './DetalhePessoa'
 
-export default props => {
+
+export default () => {
     return(
         <>
             <Router>
@@ -16,6 +18,9 @@ export default props => {
                         <Route>
                             <Route index element={<Home/>}/>
                             <Route path='/lista' element={<Lista/>}/>
+                            <Route path='/listapessoas' element={<ListaPessoas/>}/>
+                            <Route path='/cadastropessoa' element={<CadastroPessoa/>}/>
+                            <Route path='/detalhepessoa' element={<DetalhePessoa/>}/>
                             <Route path='*' element={<Erro/>}/>
                         </Route>
                     </Route>

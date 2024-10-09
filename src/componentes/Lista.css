@@ -1,5 +1,5 @@
 .lista{
-    width: 100%;
+    width: 80%;
     background-color: #ffffff;
     color: #034c88;
     margin: 20px 0px;
@@ -30,3 +30,40 @@
     font-weight: bold;
     cursor: pointer;
 }
+
+.lnkLista:link, .lnkLista:visited, .lnkLista:active {
+    border: none;
+    background: none;
+    color: #034c88;
+    font-size: 0.9em;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.lnkLista:hover{
+    font-weight: 900;
+}
+
+.lnkBtn01:link, .lnkBtn01:visited, .lnkBtn01:active {
+    border: none;
+    margin: 20px 8px;
+    padding: 5px 45px;
+    text-transform: uppercase;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: 2s;
+    font-weight: 900;
+    background-color: #ffffff;
+    color: #034c88;
+}
+
+.lnkBtn01:hover{
+    font-weight: 900;
+    opacity: 0.5;
+    color: #ffffff;
+    background-color: #022038;
+}
+
+
+
+

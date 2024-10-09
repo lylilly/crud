@@ -1,9 +1,9 @@
 import React from "react"
 
-export default props =>{
+export default props => {
     return(
         <>
-            <h2>ERRO 404! PÁGINA NÃO LOCALIZADA </h2>
+            <h2>PÁGINA DE ERRO</h2>
         </>
     )
 }

@@ -1,9 +1,7 @@
 import React from "react"
 
-export default props =>{
-    return(
-        <>
-            <h2> PÁGINA HOME </h2>
-        </>
+export default () => {
+    return (
+        <h2> PÁGINA INICIAL </h2>
     )
 }

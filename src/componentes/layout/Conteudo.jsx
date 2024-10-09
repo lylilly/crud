@@ -1,14 +1,11 @@
 import './Conteudo.css'
 
-import React from 'react'
-import { Outlet } from 'react-router-dom'
+import React from "react"
 
 export default props => {
     return (
-        <section className='Conteudo'>
-            <Outlet>
-                {props.children}
-            </Outlet>
+        <section className="Conteudo">
+            {props.children}
         </section>
     )
 }
